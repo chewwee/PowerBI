@@ -20,3 +20,4 @@ ADDCOLUMNS(
     "Weekday Num", WEEKDAY([Date])
 )
 ```
+![Screenshot 2023-09-18 202716](https://github.com/chewwee/PowerBI/assets/90857289/8ae228f2-b6af-4b67-867f-e747779476f8)
