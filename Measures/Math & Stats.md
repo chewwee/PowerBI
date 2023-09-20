@@ -59,4 +59,16 @@ CALCULATE(
    )
 )
 ```
+### 3 Months Moving Averages
+```
+3Months Moving Avrg=
+AVERAGEX(
+      WINDOW(-2,REL,0,REL,
+         SUMMARIZE(ALLSELECTED('date'),'date'[Year],'date'[Month],'date'[Month Num]),
+         ORDERBY('date'[Year],ASC,'date'[Month Num],ASC)
+      ),
+   [Total Gross Sales]
+)
+```
+
 
