@@ -53,7 +53,7 @@ CALCULATE(
 Prod Sales RT =
 CALCULATE(
    [Total Gross Sales],
-   WINDOW(1,ABS,0,REL,
+   WINDOW(1,ABS,0,REL,   -- 1, ABS starts at first row and 0 is current row 
       SUMMARIZE(ALLSELECTED('Prod'),'Prod'[Product]),
       ORDERBY([Total Gross Sales],DESC)
    )
