@@ -1,4 +1,9 @@
 ### RANKX
+
+```
+RANKX(<table>, <expression>[, <value>[, <order>[, <ties>]]])
+```
+
 ```
 Rank = 
 RANKX(
@@ -26,6 +31,11 @@ IF(
 
 
 ## Running Total 
+### Window Function
+```
+WINDOW ( from[, from_type], to[, to_type][, <relation>][, <orderBy>][, <blanks>][, <partitionBy>][, <matchBy>] )
+```
+
 ### Running Total based on date 
 ```
 Sales RT = 
